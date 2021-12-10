@@ -1,5 +1,5 @@
 #Choose a base image
-FROM ubi8/ubi
+FROM ubi8/ubi:latest
 
 # Create a new folder for our application
 RUN mkdir -p /usr/src/app
